@@ -9,7 +9,7 @@ function connectContract() {
   try {
     const { ethereum } = window;
 
-    if (ethereum.chainId === "0x13881") {
+    if (ethereum) {
       //checking for eth object in the window, see if they have wallet connected to Mumbai network
       const provider = new ethers.providers.Web3Provider(ethereum);
       const signer = provider.getSigner();
