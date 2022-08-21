@@ -97,7 +97,7 @@ function Event({event}) {
           />
         )}
         <h6 className="mb-2">{formatTimestamp(event.eventTimestamp)}</h6>
-        <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl mb-6 lg:mb-12">
+        <h1 className="text-3xl tracking-tight font-extrabold sm:text-4xl md:text-5xl mb-6 lg:mb-12">
           {event.name}
         </h1>
         <div className="flex flex-wrap-reverse lg:flex-nowrap">

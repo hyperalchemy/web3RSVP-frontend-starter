@@ -4,7 +4,8 @@ import formatTimestamp from "../utils/formatTimestamp";
 
 export default function EventCard({ id, name, eventTimestamp, imageURL }) {
   return (
-    <div className="group relative clickable-card rounded-lg focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500">
+    <div className="group relative clickable-card rounded-lg focus-within:ring-2 
+    focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500">
       <Link href={`/event/${id}`}>
         <a className="clickable-card__link"></a>
       </Link>

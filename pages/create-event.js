@@ -137,7 +137,7 @@ export default function CreateEvent() {
           />
         )}
         {!success && (
-          <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl mb-4">
+          <h1 className="text-3xl tracking-tight font-extrabold sm:text-4xl md:text-5xl mb-4">
             Create your virtual event
           </h1>
         )}
@@ -150,7 +150,7 @@ export default function CreateEvent() {
               <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5">
                 <label
                   htmlFor="eventname"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
+                  className="block text-sm font-medium sm:mt-px sm:pt-2"
                 >
                   Event name
                 </label>
@@ -170,10 +170,10 @@ export default function CreateEvent() {
               <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5">
                 <label
                   htmlFor="date"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
+                  className="block text-sm font-medium sm:mt-px sm:pt-2"
                 >
                   Date & time
-                  <p className="mt-1 max-w-2xl text-sm text-gray-400">
+                  <p className="mt-1 max-w-2xl text-sm">
                     Your event date and time
                   </p>
                 </label>
@@ -206,10 +206,10 @@ export default function CreateEvent() {
               <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5">
                 <label
                   htmlFor="max-capacity"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
+                  className="block text-sm font-medium sm:mt-px sm:pt-2"
                 >
                   Max capacity
-                  <p className="mt-1 max-w-2xl text-sm text-gray-400">
+                  <p className="mt-1 max-w-2xl text-sm">
                     Limit the number of spots available for your event.
                   </p>
                 </label>
@@ -230,10 +230,10 @@ export default function CreateEvent() {
               <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5">
                 <label
                   htmlFor="refundable-deposit"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
+                  className="block text-sm font-medium sm:mt-px sm:pt-2"
                 >
                   Refundable deposit
-                  <p className="mt-1 max-w-2xl text-sm text-gray-400">
+                  <p className="mt-1 max-w-2xl text-sm">
                     Require a refundable deposit (in MATIC) to reserve one spot
                     at your event
                   </p>
@@ -257,10 +257,10 @@ export default function CreateEvent() {
               <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5">
                 <label
                   htmlFor="event-link"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
+                  className="block text-sm font-medium sm:mt-px sm:pt-2"
                 >
                   Event link
-                  <p className="mt-1 max-w-2xl text-sm text-gray-400">
+                  <p className="mt-1 max-w-2xl text-sm">
                     The link for your virtual event
                   </p>
                 </label>
@@ -279,10 +279,10 @@ export default function CreateEvent() {
               <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5">
                 <label
                   htmlFor="about"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
+                  className="block text-sm font-medium sm:mt-px sm:pt-2"
                 >
                   Event description
-                  <p className="mt-2 text-sm text-gray-400">
+                  <p className="mt-2 text-sm">
                     Let people know what your event is about!
                   </p>
                 </label>
@@ -301,7 +301,7 @@ export default function CreateEvent() {
             <div className="pt-5">
               <div className="flex justify-end">
                 <Link href="/">
-                  <a className="bg-white py-2 px-4 border border-gray-300 rounded-full shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  <a className="py-2 px-4 border border-gray-300 rounded-full shadow-sm text-sm font-medium hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                     Cancel
                   </a>
                 </Link>

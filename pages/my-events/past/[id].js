@@ -138,18 +138,18 @@ function PastEvent({event}) {
                   <h6 className="text-sm mt-4 mb-2">
                     {formatTimestamp(event.eventTimestamp)}
                   </h6>
-                  <h1 className="text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl mb-8">
+                  <h1 className="text-2xl tracking-tight font-extrabold sm:text-3xl md:text-4xl mb-8">
                     {event.name}
                   </h1>
                   <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
                       <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
-                        <table className="min-w-full divide-y divide-gray-300">
+                        <table className="min-w-full divide-y">
                           <thead className="bg-gray-50">
                             <tr>
                               <th
                                 scope="col"
-                                className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                                className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold sm:pl-6"
                               >
                                 Attendee
                               </th>
@@ -167,10 +167,10 @@ function PastEvent({event}) {
                               </th>
                             </tr>
                           </thead>
-                          <tbody className="divide-y divide-gray-200 bg-white">
+                          <tbody className="divide-y bg-white">
                             {event.rsvps.map((rsvp) => (
                               <tr key={rsvp.attendee.id}>
-                                <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
+                                <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium sm:pl-6">
                                   {rsvp.attendee.id}
                                 </td>
                                 <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">

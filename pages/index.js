@@ -15,6 +15,7 @@ const UPCOMING_EVENTS = gql`
 `;
 
 export default function Home() {
+
   const [currentTimestamp, setEventTimestamp] = useState(
     new Date().getTime().toString()
   );
