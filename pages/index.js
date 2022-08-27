@@ -5,7 +5,7 @@ import EventCard from "../components/EventCard";
 
 const UPCOMING_EVENTS = gql`
   query Events($currentTimestamp: String) {
-    events(where: { eventTimestamp_gt: $currentTimestamp }) {
+    events(where: { eventTimestamp_gt: $currentTimestamp, name_not: null}) {
       id
       name
       eventTimestamp

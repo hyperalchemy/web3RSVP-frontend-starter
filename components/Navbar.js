@@ -33,7 +33,7 @@ export default function Navbar() {
             </div>
             <div className="ml-10 space-x-4 flex items-center">
               <Link href="/create-event">
-                <a className="inline-flex items-center px-4 py-2 border text-sm font-medium rounded-md">
+                <a className="inline-flex items-center dark:hover:bg-gray-500 hover:bg-gray-50 px-4 py-2 border text-sm font-medium rounded-md">
                   Create Event
                 </a>
               </Link>

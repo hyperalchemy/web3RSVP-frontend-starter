@@ -159,7 +159,7 @@ export default function CreateEvent() {
                     id="event-name"
                     name="event-name"
                     type="text"
-                    className="block max-w-lg w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border border-gray-300 rounded-md"
+                    className="block dark:text-gray-500 max-w-lg w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border border-gray-300 rounded-md"
                     required
                     value={eventName}
                     onChange={(e) => setEventName(e.target.value)}
@@ -220,7 +220,7 @@ export default function CreateEvent() {
                     id="max-capacity"
                     min="1"
                     placeholder="100"
-                    className="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border border-gray-300 rounded-md"
+                    className="max-w-lg block w-full shadow-sm dark:text-gray-500 focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border border-gray-300 rounded-md"
                     value={maxCapacity}
                     onChange={(e) => setMaxCapacity(e.target.value)}
                   />
@@ -247,7 +247,7 @@ export default function CreateEvent() {
                     step="any"
                     inputMode="decimal"
                     placeholder="0.00"
-                    className="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border border-gray-300 rounded-md"
+                    className="max-w-lg block w-full dark:text-gray-500 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border border-gray-300 rounded-md"
                     value={refund}
                     onChange={(e) => setRefund(e.target.value)}
                   />
@@ -269,7 +269,7 @@ export default function CreateEvent() {
                     id="event-link"
                     name="event-link"
                     type="text"
-                    className="block max-w-lg w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border border-gray-300 rounded-md"
+                    className="block max-w-lg w-full shadow-sm dark:text-gray-500 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border border-gray-300 rounded-md"
                     required
                     value={eventLink}
                     onChange={(e) => setEventLink(e.target.value)}
@@ -291,7 +291,7 @@ export default function CreateEvent() {
                     id="about"
                     name="about"
                     rows={10}
-                    className="max-w-lg shadow-sm block w-full focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border border-gray-300 rounded-md"
+                    className="max-w-lg shadow-sm block dark:text-gray-500 w-full focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border border-gray-300 rounded-md"
                     value={eventDescription}
                     onChange={(e) => setEventDescription(e.target.value)}
                   />
@@ -301,7 +301,7 @@ export default function CreateEvent() {
             <div className="pt-5">
               <div className="flex justify-end">
                 <Link href="/">
-                  <a className="py-2 px-4 border border-gray-300 rounded-full shadow-sm text-sm font-medium hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  <a className="py-2 px-4 border border-gray-300 rounded-full shadow-sm text-sm font-medium dark:hover:bg-gray-500 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                     Cancel
                   </a>
                 </Link>
