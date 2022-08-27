@@ -159,7 +159,7 @@ function Event({event}) {
               <span className="truncate">
                 Hosted by{" "}
                 <a
-                  className="text-indigo-800 truncate hover:underline"
+                  className="text-indigo-800 dark:text-gray-500 truncate hover:underline"
                   href={`${process.env.NEXT_PUBLIC_TESTNET_EXPLORER_URL}address/${event.eventOwner}`}
                   target="_blank"
                   rel="noreferrer"

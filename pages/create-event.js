@@ -117,7 +117,7 @@ export default function CreateEvent() {
             alertType={"loading"}
             alertBody={"Please wait"}
             triggerAlert={true}
-            color={"white"}
+            color={"white dark:gray"}
           />
         )}
         {success && (
