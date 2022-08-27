@@ -10,6 +10,13 @@ export default function Landing({ children }) {
           content="Find, join, and create virtual events with your web3 frens"
         />
       </Head>
+      <section>
+        <br/><br/>
+            <b>Hello world!</b> <br/>
+            <span> This is my first dApp &#128512;
+            Built on Mumbai Testnet (Polygon) - 
+              please use a burner wallet to connect!</span>
+      </section>
       <section className="py-12">
         <div className="w-full md:w-8/12 text-left">
           <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
